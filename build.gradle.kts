@@ -16,7 +16,7 @@ dependencies {
     compile("org.openjdk.jmh", "jmh-core", "1.23")
     compile("org.openjdk.jmh", "jmh-generator-annprocess", "1.23")
 
-    testCompile("junit", "junit", "4.12")
+    testImplementation("org.junit.jupiter", "junit-jupiter", "5.6.2")
     // Use the Kotlin test library.
     testImplementation("org.jetbrains.kotlin:kotlin-test")
 
