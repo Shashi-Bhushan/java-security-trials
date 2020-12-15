@@ -16,3 +16,9 @@ It is a process to convert a message to a fixed length random bytes. Bytes of ha
 Hash function should have these 4 properties - Deterministic, irreversible, high entropy and collission resistance.
 
 AFAIK, Java natively supports only [PBKDF2](https://github.com/Shashi-Bhushan/java-security-trials/blob/master/src/main/java/in/shabhushan/crypto/hashing/PasswordBasedKeyDerivationFunction.java), but others can be added via libraries.
+
+### Obfuscation
+[Obfuscation is not encryption](https://github.com/Shashi-Bhushan/java-security-trials/blob/master/src/test/java/in/shabhushan/crypto/obfuscation/PasswordObfuscationTest.java).
+It merely changes your plain text values to an indistinguishable random value, whose only purpose is [security through obscurity](https://en.wikipedia.org/wiki/Security_through_obscurity) at least in principle.
+
+
